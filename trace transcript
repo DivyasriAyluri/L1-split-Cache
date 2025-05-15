@@ -1,0 +1,641 @@
+couldn't open "transcript": permission denied
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project ECE 585 FINALPROJECT
+cd {//thoth.cecs.pdx.edu/Home06/suryavt/Downloads/ECE 585}
+# reading C:/questasim64_2023.3/win64/../modelsim.ini
+do run.do
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:57:12 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_data.sv "+acc" 
+# -- Compiling module cache_data
+# ** Note: Cache_data.sv(26): (vlog-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# 
+# Top level modules:
+# 	cache_data
+# End time: 17:57:13 on Mar 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:57:13 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_instruction.sv "+acc" 
+# -- Compiling module cache_instruction
+# ** Note: Cache_instruction.sv(27): (vlog-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# 
+# Top level modules:
+# 	cache_instruction
+# End time: 17:57:13 on Mar 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:57:13 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_tesbench.sv "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "Cache_tesbench.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 17:57:13 on Mar 14,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2023.3/win64/vlog failed.
+# Error in macro ./run.do line 4
+# C:/questasim64_2023.3/win64/vlog failed.
+#     while executing
+# "vlog -reportprogress 300 -work work Cache_tesbench.sv +acc"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:58:04 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_data.sv "+acc" 
+# -- Compiling module cache_data
+# ** Note: Cache_data.sv(26): (vlog-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# 
+# Top level modules:
+# 	cache_data
+# End time: 17:58:04 on Mar 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:58:04 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_instruction.sv "+acc" 
+# -- Compiling module cache_instruction
+# ** Note: Cache_instruction.sv(27): (vlog-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# 
+# Top level modules:
+# 	cache_instruction
+# End time: 17:58:05 on Mar 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:58:05 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_testbench.sv "+acc" 
+# -- Compiling module Cache_tesbench
+# 
+# Top level modules:
+# 	Cache_tesbench
+# End time: 17:58:05 on Mar 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.SplitL1Cache_tesbench "+Tracefile=tracefile.txt" 
+# Start time: 17:58:05 on Mar 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Error: (vopt-13130) Failed to find design unit 'SplitL1Cache_tesbench'.
+#         Searched libraries:
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 5
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:58:33 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_data.sv "+acc" 
+# -- Compiling module cache_data
+# ** Note: Cache_data.sv(26): (vlog-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# 
+# Top level modules:
+# 	cache_data
+# End time: 17:58:33 on Mar 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:58:33 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_instruction.sv "+acc" 
+# -- Compiling module cache_instruction
+# ** Note: Cache_instruction.sv(27): (vlog-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# 
+# Top level modules:
+# 	cache_instruction
+# End time: 17:58:33 on Mar 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 17:58:33 on Mar 14,2024
+# vlog -reportprogress 300 -work work Cache_testbench.sv "+acc" 
+# -- Compiling module Cache_tesbench
+# 
+# Top level modules:
+# 	Cache_tesbench
+# End time: 17:58:34 on Mar 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.Cache_tesbench "+Tracefile=tracefile.txt" 
+# Start time: 17:58:05 on Mar 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: Cache_data.sv(26): (vopt-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# ** Note: Cache_instruction.sv(27): (vopt-13177) Promoting concatenation '{default:0}' to an assignment pattern:  Named element found.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=2.
+# Loading sv_std.std
+# Loading work.Cache_tesbench(fast)
+# Loading work.cache_data(fast)
+# Loading work.cache_instruction(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'data_read'. The port definition is at: Cache_data.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT1 File: Cache_testbench.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'data_write'. The port definition is at: Cache_data.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT1 File: Cache_testbench.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'data_hit'. The port definition is at: Cache_data.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT1 File: Cache_testbench.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'data_miss'. The port definition is at: Cache_data.sv(4).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT1 File: Cache_testbench.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'instruction_read'. The port definition is at: Cache_instruction.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT2 File: Cache_testbench.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'instruction_write'. The port definition is at: Cache_instruction.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT2 File: Cache_testbench.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'instruction_hit'. The port definition is at: Cache_instruction.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT2 File: Cache_testbench.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (1) for port 'instruction_miss'. The port definition is at: Cache_instruction.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /Cache_tesbench/DUT2 File: Cache_testbench.sv Line: 16
+#          
+# 2 02020202
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <2020202>
+#  
+#          
+# 1 10305008
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# --------------Communication with L2--------------
+# Data Cache : Read for Ownership(RFO) from L2 <10305008>
+# Data Cache : Write to L2 <10305008>
+#  
+#          
+# 2 9abcdef0
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <9abcdef0>
+#  
+#          
+# 1 f3f3f2ff
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# --------------Communication with L2--------------
+# Data Cache : Read for Ownership(RFO) from L2 <f3f3f2ff>
+# Data Cache : Write to L2 <f3f3f2ff>
+#  
+#          
+# 2 0000ffff
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <ffff>
+#  
+#          
+# 1 ceaddeef
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# --------------Communication with L2--------------
+# Data Cache : Read for Ownership(RFO) from L2 <ceaddeef>
+# Data Cache : Write to L2 <ceaddeef>
+#  
+#          
+# 2 cafebabe
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <cafebabe>
+#  
+#          
+# 1 8000000
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# --------------Communication with L2--------------
+# Data Cache : Read for Ownership(RFO) from L2 <8000000>
+# Data Cache : Write to L2 <8000000>
+#  
+#          
+# 0 7fffffff
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <7fffffff>
+#  
+#          
+# 0 00112233
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <112233>
+#  
+#          
+# 0 ffeeddcc
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <ffeeddcc>
+#  
+#          
+# 0 55ab55c5
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <55ab55c5>
+#  
+#          
+# 0 aaaaaaaa
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <aaaaaaaa>
+#  
+#          
+# 0 01234567
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <1234567>
+#  
+#          
+# 0 89abcdef
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <89abcdef>
+#  
+#          
+# 0 7f7f7f7f
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <7f7f7f7f>
+#  
+#          
+# 0 80808080
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <80808080>
+#  
+#          
+# 1 0f0f0f0f
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# --------------Communication with L2--------------
+# Data Cache : Read for Ownership(RFO) from L2 <f0f0f0f>
+# Data Cache : Write to L2 <f0f0f0f>
+#  
+#          
+# 2 f0f0f0f0
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <f0f0f0f0>
+#  
+#          
+# 3 12341234
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+#          
+# 4 56785678
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# Cache for address <56785678> is miss, hence snooping an Read for Ownership(RFO) from other processor isn't possible.
+#          
+# 2 9abc9abc
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <9abc9abc>
+#  
+#          
+# 3 def0def0
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+#          
+# 3 deadface
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+#          
+# 2 baadf00d
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <baadf00d>
+#  
+#          
+# 4 feedface
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# Cache for address <feedface> is miss, hence snooping an Read for Ownership(RFO) from other processor isn't possible.
+#          
+# 4 12344321
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# Cache for address <12344321> is miss, hence snooping an Read for Ownership(RFO) from other processor isn't possible.
+#          
+# 4 67896789
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# Cache for address <67896789> is miss, hence snooping an Read for Ownership(RFO) from other processor isn't possible.
+#          
+# 3 abcdabcd
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+#          
+# 2 ef00ef00
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <ef00ef00>
+#  
+#          
+# 1 7fffffff
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 00112233
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 ffeeddcc
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 55555555
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# --------------Communication with L2--------------
+# Data Cache : Read for Ownership(RFO) from L2 <55555555>
+# Data Cache : Write to L2 <55555555>
+#  
+#          
+# 1 aaaaaaaa
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 01234567
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 89abcdef
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 7f7f7f7f
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 1 80808080
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 0 12345678
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <12345678>
+#  
+#          
+# 0 ffffffff
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <ffffffff>
+#  
+#          
+# 0 deadbeef
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <deadbeef>
+#  
+#          
+# 0 80000000
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <80000000>
+#  
+#          
+# 0 0f0f0f0f
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 0 00000000
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <0>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <0>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <0>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <0>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <0>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <0>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 0 9abcdef0
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <9abcdef0>
+#  
+#          
+# 0 0000ffff
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+# ------Communication with L2------
+# Data Cache : Write to L2 <ffff>
+#  
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 0 babecabe
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <babecabe>
+#  
+#          
+# 0 f0f0f0f0
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <f0f0f0f0>
+#  
+#          
+# 0 9abc9abc
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <9abc9abc>
+#  
+#          
+# 0 faadd00d
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <faadd00d>
+#  
+#          
+# 0 ef00ef00
+# 
+# -----TAG BITS DONT MATCH - MISS-----
+# ------Communication with L2------
+# Data Cache : Read from L2 <ef00ef00>
+#  
+#          
+# 2 00000000
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <0>
+#  
+#          
+# 2 9abcdef0
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 2 0000ffff
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 2 cafebabe
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 2 f0f0ff0
+# 
+# ------TAG BITS DONT MATCH, HENCE MISS-------
+# --Communication with L2--
+# Read from L2 <f0f0ff0>
+#  
+#          
+# 2 9abc9abc
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 2 baadf00d
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 2 ef00ef00
+# 
+# ------TAG BITS MATCH, HENCE HIT-------
+#          
+# 8 abcdef01
+# 
+#          
+# 9 543210ef
+# 
+# -------------------------------Contents of INSTRUCTION CACHE-------------------------------
+# TRACE Address = 543210ef
+# SET NUMBER          = 843
+# TAG3 = 0		 TAG2 = 0		 TAG1 = 0		 TAG0 = 0
+# STATE3 = Invalid	 STATE2 = Invalid	 STATE1 = Invalid	 STATE0 = Invalid
+# LRU3 = 0		 LRU2 = 0		 LRU1 = 0		 LRU0 = 0
+# VALID3 = 0		 VALID2 = 0		 VALID1 = 0		 VALID0 = 0
+#  
+# ---INSTRUCTION CACHE statistics---
+# Total Number of instruction reads  = 16
+# Total Number of instruction writes = 0
+# Total Number of instruction hits   = 6
+# Total Number of instruction misses = 10
+# Instruction Cache HIT ratio = 37.500000
+#  
+# --------------------------------------------------------------------------------Contents of DATA CACHE--------------------------------------------------------------------------------
+# TRACE ADDRESS = 543210ef
+# SET NUMBER   = 843
+# TAG7 = 0		 TAG6 = 0		 TAG5 = 0		 TAG4 = 0		 TAG3 = 0		 TAG2 = 0		 TAG1 = 0		 TAG0 = 0
+# STATE7 = Invalid	 STATE6 = Invalid	 STATE5 = Invalid	 STATE4 = Invalid	 STATE3 = Invalid	 STATE2 = Invalid	 STATE1 = Invalid	 STATE0 = Invalid
+# LRU7 = 0		 LRU6 = 0		 LRU5 = 0		 LRU4 = 0		 LRU3 = 0		 LRU2 = 0		 LRU1 = 0		 LRU0 = 0
+# DIRTY7 = 0		 DIRTY6 = 0		 DIRTY5 = 0		 DIRTY4 = 0		 DIRTY3 = 0		 DIRTY2 = 0		 DIRTY1 = 0		 DIRTY0 = 0
+# VALID7 = 0		 VALID6 = 0		 VALID5 = 0		 VALID4 = 0		 VALID3 = 0		 VALID2 = 0		 VALID1 = 0		 VALID0 = 0
+#  
+# -----DATA CACHE statistics-----
+# Total Number of data reads  = 20
+# Total Number of data writes = 14
+# Total Number of data hits   = 11
+# Total Number of data misses = 33
+# DATA CACHE HIT ratio = 25.000000
+#  
+#          
+# 
+# Trace filename formatting is not correct
+# -------------------------------Contents of INSTRUCTION CACHE-------------------------------
+# TRACE Address = 543210ef
+# SET NUMBER          = 843
+# TAG3 = 0		 TAG2 = 0		 TAG1 = 0		 TAG0 = 0
+# STATE3 = Invalid	 STATE2 = Invalid	 STATE1 = Invalid	 STATE0 = Invalid
+# LRU3 = 0		 LRU2 = 0		 LRU1 = 0		 LRU0 = 0
+# VALID3 = 0		 VALID2 = 0		 VALID1 = 0		 VALID0 = 0
+#  
+# ---INSTRUCTION CACHE statistics---
+# Total Number of instruction reads  = 16
+# Total Number of instruction writes = 0
+# Total Number of instruction hits   = 6
+# Total Number of instruction misses = 10
+# Instruction Cache HIT ratio = 37.500000
+#  
+# --------------------------------------------------------------------------------Contents of DATA CACHE--------------------------------------------------------------------------------
+# TRACE ADDRESS = 543210ef
+# SET NUMBER   = 843
+# TAG7 = 0		 TAG6 = 0		 TAG5 = 0		 TAG4 = 0		 TAG3 = 0		 TAG2 = 0		 TAG1 = 0		 TAG0 = 0
+# STATE7 = Invalid	 STATE6 = Invalid	 STATE5 = Invalid	 STATE4 = Invalid	 STATE3 = Invalid	 STATE2 = Invalid	 STATE1 = Invalid	 STATE0 = Invalid
+# LRU7 = 0		 LRU6 = 0		 LRU5 = 0		 LRU4 = 0		 LRU3 = 0		 LRU2 = 0		 LRU1 = 0		 LRU0 = 0
+# DIRTY7 = 0		 DIRTY6 = 0		 DIRTY5 = 0		 DIRTY4 = 0		 DIRTY3 = 0		 DIRTY2 = 0		 DIRTY1 = 0		 DIRTY0 = 0
+# VALID7 = 0		 VALID6 = 0		 VALID5 = 0		 VALID4 = 0		 VALID3 = 0		 VALID2 = 0		 VALID1 = 0		 VALID0 = 0
+#  
+# -----DATA CACHE statistics-----
+# Total Number of data reads  = 20
+# Total Number of data writes = 14
+# Total Number of data hits   = 11
+# Total Number of data misses = 33
+# DATA CACHE HIT ratio = 25.000000
+#  
+# ** Note: $stop    : Cache_testbench.sv(59)
+#    Time: 1333 ns  Iteration: 0  Instance: /Cache_tesbench
+# Break in Module Cache_tesbench at Cache_testbench.sv line 59
